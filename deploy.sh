@@ -7,4 +7,5 @@ docker push balasubramaniand/dev
 elif [[ $GIT_BRANCH == "main" ]]; then
 docker tag capstone balasubramaniand/prod
 docker push balasubramaniand/prod
+fi
 docker-compose up -d
